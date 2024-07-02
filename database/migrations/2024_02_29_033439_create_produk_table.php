@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('gambar')->default('no-images.jpg');
             $table->string('detail');
             $table->foreignId('kategori_id');
-            $table->foreignId('user_id')->default('id');
+            $table->foreignId('user_id');
             $table->timestamps();
 
         });

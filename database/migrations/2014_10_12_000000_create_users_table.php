@@ -21,7 +21,6 @@ return new class extends Migration
             $table->string('alamat');
             // $table->string('kode')->nullable();
             $table->string('gambar')->default('no-images.jpg');
-            $table->timestamp('isadmin')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
